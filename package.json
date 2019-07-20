@@ -4,7 +4,8 @@
   "description": "JS helpers for streaming RadioU",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint index.js podcast-feed.js streaming.js test/"
   },
   "author": "mcglonelevi",
   "license": "ISC",
@@ -13,6 +14,13 @@
     "react-native-rss-parser": "^1.4.0"
   },
   "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.11.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "jest": "^24.8.0"
   }
 }
